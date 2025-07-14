@@ -93,7 +93,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,s="";const i="Copy,  Paste... ",r="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const n=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,s=a.substring(0,t),t>a.length){n.textContent=i,o.textContent=r,o.classList.add("typing");return}s.length<=i.length?(n.textContent=s,o.textContent=""):(n.textContent=i,o.textContent=s.substring(i.length+1)),t<=a.length&&(s.length<=i.length?(n.classList.add("typing"),o.classList.remove("typing")):(n.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,s="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const n=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,s=a.substring(0,t),t>a.length){n.textContent=i,o.textContent=r,o.classList.add("typing");return}s.length<=i.length?(n.textContent=s,o.textContent=""):(n.textContent=i,o.textContent=s.substring(i.length+1)),t<=a.length&&(s.length<=i.length?(n.classList.add("typing"),o.classList.remove("typing")):(n.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -131,9 +131,13 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
             .typewriter-text span.typing::after {
                 content: '|';
                 position: absolute;
-                right: -0.1em;
+                right: -0.35em;
+                top: 50%;
+                transform: translateY(-50%);
                 color: var(--accent-blue);
                 animation: blink 1s infinite;
+                font-weight: 300;
+                font-size: 0.9em;
             }
             
             @keyframes blink {
@@ -390,4 +394,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-Bw0umizd.js.map
+//# sourceMappingURL=index-Bm46SrIY.js.map
