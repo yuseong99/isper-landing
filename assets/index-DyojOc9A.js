@@ -63,9 +63,8 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                                     </video>
                                 </div>
                                 <div class="video-info">
-                                    <h2 class="video-title">Save place</h2>
+                                    <h2 class="video-title">Search & Save places</h2>
                                     <ul class="video-features">
-                                        <li>Search & Save places</li>
                                         <li>Save Places for your future</li>
                                     </ul>
                                 </div>
@@ -84,7 +83,6 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                                 <div class="video-info">
                                     <h2 class="video-title">Been here</h2>
                                     <ul class="video-features">
-                                        <li>Verify your visit</li>
                                         <li>Prove you've actually been to the places you discovered</li>
                                     </ul>
                                 </div>
@@ -93,7 +91,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,s="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const n=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,s=a.substring(0,t),t>a.length){n.textContent=i,o.textContent=r,o.classList.add("typing");return}s.length<=i.length?(n.textContent=s,o.textContent=""):(n.textContent=i,o.textContent=s.substring(i.length+1)),t<=a.length&&(s.length<=i.length?(n.classList.add("typing"),o.classList.remove("typing")):(n.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){s.textContent=i,o.textContent=r,o.classList.add("typing");return}n.length<=i.length?(s.textContent=n,o.textContent=""):(s.textContent=i,o.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(s.classList.add("typing"),o.classList.remove("typing")):(s.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -394,4 +392,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-Bm46SrIY.js.map
+//# sourceMappingURL=index-DyojOc9A.js.map
