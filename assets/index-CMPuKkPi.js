@@ -13,22 +13,22 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                             
                             <div class="contact-item">
                                 <h3>General Inquiries</h3>
-                                <p><a href="mailto:hello@isper.com">hello@isper.com</a></p>
+                                <p><a href="mailto:hello@isper.com">hello@isperai.com</a></p>
                             </div>
                             
                             <div class="contact-item">
                                 <h3>Sales</h3>
-                                <p><a href="mailto:sales@isper.com">sales@isper.com</a></p>
+                                <p><a href="mailto:sales@isper.com">sales@isperai.com</a></p>
                             </div>
                             
                             <div class="contact-item">
                                 <h3>Support</h3>
-                                <p><a href="mailto:support@isper.com">support@isper.com</a></p>
+                                <p><a href="mailto:support@isper.com">support@isperai.com</a></p>
                             </div>
                             
                             <div class="contact-item">
                                 <h3>Press</h3>
-                                <p><a href="mailto:press@isper.com">press@isper.com</a></p>
+                                <p><a href="mailto:press@isper.com">press@isperai.com</a></p>
                             </div>
                             
                             <div class="social-links">
@@ -300,4 +300,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}loadRecaptchaScript(){if(document.querySelector('script[src*="recaptcha/api.js"]'))return;const e=document.createElement("script");e.src="https://www.google.com/recaptcha/api.js",e.async=!0,e.defer=!0,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-DGYUKYAQ.js.map
+//# sourceMappingURL=index-CMPuKkPi.js.map
