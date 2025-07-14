@@ -1,4 +1,4 @@
-import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as g}from"./Navigation-CVttPfbx.js";class f{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new g;this.container.appendChild(i.render());const e=document.createElement("div");e.className="page-container",e.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
@@ -46,8 +46,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                                     <h2 class="video-title">Video to Pinpoint</h2>
                                     <ul class="video-features">
                                         <li>URL processing</li>
-                                        <li>Just copy & paste video you like, then Isper pinpoint places in 
-          - the video</li>
+                                        <li>Just copy & paste video you like, then Isper pinpoint places in the video</li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,7 +90,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const o=e.querySelector(".line1"),s=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){o.textContent=i,s.textContent=r,o.classList.remove("typing"),s.classList.remove("typing");return}n.length<=i.length?(o.textContent=n,s.textContent=""):(o.textContent=i,s.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(o.classList.add("typing"),s.classList.remove("typing")):(o.classList.remove("typing"),s.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
+        `,this.container.appendChild(e),this.addStyles(),this.initTypewriter()}initTypewriter(){const i=document.querySelector(".typewriter-text");if(!i)return;let e=0,o="",n=!1,l=0;const t="Copy, Paste...",c=["GO!","Travel!"];i.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=i.querySelector(".line1"),a=i.querySelector(".line2");function r(){const p=c[l],d=t+" "+p;if(n)if(e>t.length+1)e--,o=d.substring(0,e);else{s.textContent=t,a.textContent=" ",s.classList.remove("typing"),a.classList.remove("typing"),setTimeout(()=>{n=!1,l=(l+1)%c.length,e=t.length+1,o=t+" ",r()},300);return}else if(e++,o=d.substring(0,e),e>d.length){setTimeout(()=>{n=!0,e=t.length+1+p.length,r()},3e3);return}if(o.length<=t.length&&!n)s.textContent=o,a.textContent="";else{s.textContent=t;const v=o.substring(t.length+1);a.textContent=v||" "}o.length<=t.length&&!n?(s.classList.add("typing"),a.classList.remove("typing")):(s.classList.remove("typing"),a.classList.add("typing")),setTimeout(r,n?80:120)}setTimeout(r,500)}addStyles(){const i=document.createElement("style");i.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -100,6 +99,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 text-align: center;
                 padding: var(--spacing-xl) 0;
                 padding-top: calc(var(--spacing-xl) * 2);
+                background: radial-gradient(ellipse at top, rgba(255, 255, 255, 0.05), transparent 50%);
             }
             
             .hero-logo {
@@ -129,13 +129,15 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
             .typewriter-text span.typing::after {
                 content: '|';
                 position: absolute;
-                right: -0.35em;
+                right: -0.1em;
                 top: 50%;
                 transform: translateY(-50%);
                 color: var(--accent-blue);
                 animation: blink 1s infinite;
                 font-weight: 300;
-                font-size: 0.9em;
+                font-size: 1.2em;
+                height: 1.2em;
+                line-height: 1;
             }
             
             @keyframes blink {
@@ -306,10 +308,11 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
             }
             
             .video-features li {
-                font-size: 1.125rem;
-                color: var(--text-gray);
+                font-size: 1.25rem;
+                color: #E0E0E0;
                 margin-bottom: var(--spacing-sm);
                 padding-left: 0;
+                line-height: 1.6;
             }
             
             .video-features li::before {
@@ -388,8 +391,8 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
                 
                 .video-features li {
-                    font-size: 1rem;
+                    font-size: 1.125rem;
                 }
             }
-        `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-BmlO3tQX.js.map
+        `,document.head.appendChild(i)}destroy(){}}export{f as default};
+//# sourceMappingURL=index-BVQHWBYV.js.map

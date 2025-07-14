@@ -102,6 +102,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
             .contact-hero {
                 padding: var(--spacing-xl) 0;
                 text-align: center;
+                background: radial-gradient(ellipse at top, rgba(255, 255, 255, 0.05), transparent 50%);
             }
             
             .contact-content {
@@ -300,4 +301,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}loadRecaptchaScript(){if(document.querySelector('script[src*="recaptcha/api.js"]'))return;const e=document.createElement("script");e.src="https://www.google.com/recaptcha/api.js",e.async=!0,e.defer=!0,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-CMPuKkPi.js.map
+//# sourceMappingURL=index-D4VXsD8_.js.map

@@ -53,6 +53,7 @@ import{N as s}from"./Navigation-CVttPfbx.js";class l{constructor(){this.containe
             .news-hero {
                 padding: var(--spacing-xl) 0;
                 text-align: center;
+                background: radial-gradient(ellipse at top, rgba(255, 255, 255, 0.05), transparent 50%);
             }
             
             .subtitle {
@@ -192,4 +193,4 @@ import{N as s}from"./Navigation-CVttPfbx.js";class l{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{l as default};
-//# sourceMappingURL=index-D17Vs_ih.js.map
+//# sourceMappingURL=index-CoyQiejk.js.map
