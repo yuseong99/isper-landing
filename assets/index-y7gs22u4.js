@@ -308,10 +308,15 @@ import{N as d}from"./Navigation-BNJVF-sh.js";class g{constructor(){this.containe
             
             .video-features li {
                 font-size: 1.25rem;
-                color: #E0E0E0;
+                color: var(--text-gray);
                 margin-bottom: var(--spacing-sm);
                 padding-left: 0;
                 line-height: 1.6;
+                transition: color 0.3s ease;
+            }
+            
+            .video-info:hover .video-features li {
+                color: #E0E0E0;
             }
             
             .video-features li::before {
@@ -394,4 +399,4 @@ import{N as d}from"./Navigation-BNJVF-sh.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-DjfaorvJ.js.map
+//# sourceMappingURL=index-y7gs22u4.js.map
