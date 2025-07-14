@@ -23,8 +23,7 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                             <div><span class="highlight-text">Extraction & Recognition</span></div>
                         </h1>
                         <p class="what-is-description fade-in">
-                            Isper is an AI agent that watches and listens to videos in real-time,<br>
-                            then extracts and recognizes the data you need.
+                            Isper is an AI which has ability to watches and listens to videos in real-time, then extracts and recognizes the data you need.
                         </p>
                     </div>
                 </div>
@@ -167,4 +166,4 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                 
             }
         `,document.head.appendChild(i)}destroy(){}}export{o as default};
-//# sourceMappingURL=index-Mg9NzruP.js.map
+//# sourceMappingURL=index-Bzhhp1_r.js.map
