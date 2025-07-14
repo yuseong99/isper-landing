@@ -91,7 +91,7 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){s.textContent=i,o.textContent=r,o.classList.add("typing");return}n.length<=i.length?(s.textContent=n,o.textContent=""):(s.textContent=i,o.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(s.classList.add("typing"),o.classList.remove("typing")):(s.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO! ";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const o=e.querySelector(".line1"),s=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){o.textContent=i,s.textContent=r,o.classList.remove("typing"),s.classList.remove("typing");return}n.length<=i.length?(o.textContent=n,s.textContent=""):(o.textContent=i,s.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(o.classList.add("typing"),s.classList.remove("typing")):(o.classList.remove("typing"),s.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -392,4 +392,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-DyojOc9A.js.map
+//# sourceMappingURL=index-BmlO3tQX.js.map
