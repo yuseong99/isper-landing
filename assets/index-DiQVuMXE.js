@@ -1,4 +1,4 @@
-import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new n;this.container.appendChild(i.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as s}from"./Navigation-CVttPfbx.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new s;this.container.appendChild(e.render());const i=document.createElement("div");i.className="page-container",i.innerHTML=`
             <!-- Mission Section -->
             <section class="mission-hero">
                 <div class="mission-sphere"></div>
@@ -30,7 +30,36 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initAnimations()}initAnimations(){document.querySelectorAll(".feature-card").forEach((t,e)=>{t.style.animationDelay=`${e*.1}s`})}addStyles(){const i=document.createElement("style");i.textContent=`
+
+            <!-- Discovery Flow Section -->
+            <section class="discovery-section">
+                <div class="container">
+                    <div class="discovery-content">
+                        <h3 class="section-label fade-in">HOW IT WORKS</h3>
+                        <h1 class="discovery-statement fade-in">
+                            <div>Conversational Video-led Discovery Flow</div>
+                        </h1>
+                        <div class="discovery-steps fade-in">
+                            <div class="step-item">
+                                <span class="step-number">1.</span>
+                                <p>Ask Isper to search places</p>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">2.</span>
+                                <p>Isper understands and searches trending videos from YouTube, Instagram, and TikTok</p>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">3.</span>
+                                <p>Isper watches & listens to videos, extract places then shows to user</p>
+                            </div>
+                        </div>
+                        <p class="discovery-tagline fade-in">
+                            <span class="highlight-text">"Like Perplexity, but with Map"</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        `,this.container.appendChild(i),this.addStyles(),this.initAnimations()}initAnimations(){document.querySelectorAll(".feature-card").forEach((i,t)=>{i.style.animationDelay=`${t*.1}s`})}addStyles(){const e=document.createElement("style");e.textContent=`
             /* Mission Hero Section */
             .mission-hero {
                 min-height: 100vh;
@@ -125,6 +154,61 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                 margin-top: var(--spacing-xl);
             }
             
+            /* Discovery Flow Section */
+            .discovery-section {
+                padding: calc(var(--spacing-xl) * 3) 0;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                position: relative;
+            }
+            
+            .discovery-content {
+                text-align: left;
+                max-width: 1000px;
+                margin: 0 auto;
+                margin-top: -10vh;
+                padding: 0 var(--spacing-md);
+            }
+            
+            .discovery-statement {
+                font-size: clamp(1.75rem, 4vw, 3rem);
+                font-weight: 700;
+                line-height: 1.4;
+                margin-bottom: var(--spacing-xl);
+            }
+            
+            .discovery-steps {
+                margin: var(--spacing-xl) 0;
+            }
+            
+            .step-item {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: var(--spacing-md);
+                font-size: 1.125rem;
+                line-height: 1.6;
+            }
+            
+            .step-number {
+                font-weight: 700;
+                color: var(--text-white);
+                margin-right: var(--spacing-sm);
+                flex-shrink: 0;
+            }
+            
+            .step-item p {
+                color: var(--text-gray);
+                margin: 0;
+            }
+            
+            .discovery-tagline {
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-align: center;
+                margin-top: var(--spacing-xl);
+            }
+            
             /* Mobile Styles */
             @media (max-width: 768px) {
                 .mission-hero {
@@ -159,6 +243,26 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                 .what-is-description {
                     font-size: 1rem;
                 }
+                
+                .discovery-section {
+                    min-height: 80vh;
+                }
+                
+                .discovery-content {
+                    margin-top: -5vh;
+                }
+                
+                .discovery-statement {
+                    font-size: 1.25rem;
+                }
+                
+                .step-item {
+                    font-size: 1rem;
+                }
+                
+                .discovery-tagline {
+                    font-size: 1.25rem;
+                }
             }
-        `,document.head.appendChild(i)}destroy(){}}export{o as default};
-//# sourceMappingURL=index-DDaDzHPZ.js.map
+        `,document.head.appendChild(e)}destroy(){}}export{o as default};
+//# sourceMappingURL=index-DiQVuMXE.js.map
