@@ -1,4 +1,4 @@
-import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new n;this.container.appendChild(i.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as n}from"./Navigation-sY52ByX1.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new n;this.container.appendChild(i.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <!-- Mission Section -->
             <section class="mission-hero">
                 <div class="mission-sphere"></div>
@@ -23,7 +23,8 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                             <div><span class="highlight-text">Extraction & Recognition</span></div>
                         </h1>
                         <p class="what-is-description fade-in">
-                            Isper is an AI which has ability to watches and listens to videos in real-time, then extracts and recognizes the data you need.
+                            Isper is an AI which has ability to watches and listens to videos in real-time,<br>
+                            then extracts and recognizes the data you need.
                         </p>
                     </div>
                 </div>
@@ -166,4 +167,4 @@ import{N as n}from"./Navigation-CVttPfbx.js";class o{constructor(){this.containe
                 
             }
         `,document.head.appendChild(i)}destroy(){}}export{o as default};
-//# sourceMappingURL=index-Bzhhp1_r.js.map
+//# sourceMappingURL=index-CUC2MSbc.js.map

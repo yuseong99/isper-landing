@@ -1,4 +1,4 @@
-import{N as s}from"./Navigation-CVttPfbx.js";class l{constructor(){this.container=document.getElementById("app"),this.newsItems=[{date:"2024-01-15",category:"Product",title:"ISPER Maps 2.0 Released",excerpt:"Major update brings 3x faster processing and improved accuracy for urban environments.",link:"#"},{date:"2023-12-01",category:"Funding",title:"Series A Funding Announcement",excerpt:"ISPER raises $15M to expand location intelligence capabilities and team.",link:"#"},{date:"2023-10-20",category:"Partnership",title:"Strategic Partnership with News Organizations",excerpt:"Leading media companies adopt ISPER for video verification workflows.",link:"#"}]}render(){this.container.innerHTML="";const e=new s;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as s}from"./Navigation-sY52ByX1.js";class l{constructor(){this.container=document.getElementById("app"),this.newsItems=[{date:"2024-01-15",category:"Product",title:"ISPER Maps 2.0 Released",excerpt:"Major update brings 3x faster processing and improved accuracy for urban environments.",link:"#"},{date:"2023-12-01",category:"Funding",title:"Series A Funding Announcement",excerpt:"ISPER raises $15M to expand location intelligence capabilities and team.",link:"#"},{date:"2023-10-20",category:"Partnership",title:"Strategic Partnership with News Organizations",excerpt:"Leading media companies adopt ISPER for video verification workflows.",link:"#"}]}render(){this.container.innerHTML="";const e=new s;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="news-hero">
                 <div class="container">
                     <h1 class="fade-in">News & Updates</h1>
@@ -193,4 +193,4 @@ import{N as s}from"./Navigation-CVttPfbx.js";class l{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{l as default};
-//# sourceMappingURL=index-CoyQiejk.js.map
+//# sourceMappingURL=index-C0ONX-Jw.js.map

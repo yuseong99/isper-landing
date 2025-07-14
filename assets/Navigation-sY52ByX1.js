@@ -5,7 +5,7 @@ class i{constructor(){this.element=null,this.init()}init(){this.element=document
                 </a>
                 
                 <div class="nav-links">
-                    <a href="/isper" class="nav-link">Isper</a>
+                    <a href="/isper" class="nav-link">Isper Maps</a>
                     <a href="/company" class="nav-link">Company</a>
                     <a href="/news" class="nav-link">News</a>
                     <a href="/contact" class="nav-link">Contact</a>
@@ -18,4 +18,4 @@ class i{constructor(){this.element=null,this.init()}init(){this.element=document
                 </div>
             </div>
         `,this.setupMobileToggle(),this.updateActiveLink()}setupMobileToggle(){const e=this.element.querySelector(".nav-mobile-toggle"),t=this.element.querySelector(".nav-links"),s=this.element.querySelectorAll(".nav-link");e.addEventListener("click",()=>{t.classList.toggle("active"),e.classList.toggle("active")}),s.forEach(a=>{a.addEventListener("click",()=>{t.classList.remove("active"),e.classList.remove("active")})})}updateActiveLink(){const e=window.location.pathname;this.element.querySelectorAll(".nav-link").forEach(s=>{s.getAttribute("href")===e?s.classList.add("active"):s.classList.remove("active")})}render(){return this.element}}export{i as N};
-//# sourceMappingURL=Navigation-CVttPfbx.js.map
+//# sourceMappingURL=Navigation-sY52ByX1.js.map

@@ -1,4 +1,4 @@
-import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render()),this.loadRecaptchaScript();const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as d}from"./Navigation-sY52ByX1.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render()),this.loadRecaptchaScript();const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="contact-hero">
                 <div class="container">
                     <h1 class="fade-in">Get in Touch</h1>
@@ -301,4 +301,4 @@ import{N as d}from"./Navigation-CVttPfbx.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}loadRecaptchaScript(){if(document.querySelector('script[src*="recaptcha/api.js"]'))return;const e=document.createElement("script");e.src="https://www.google.com/recaptcha/api.js",e.async=!0,e.defer=!0,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-D4VXsD8_.js.map
+//# sourceMappingURL=index-Bwk-2loe.js.map

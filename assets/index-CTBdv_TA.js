@@ -1,4 +1,4 @@
-import{N as g}from"./Navigation-CVttPfbx.js";class f{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new g;this.container.appendChild(i.render());const e=document.createElement("div");e.className="page-container",e.innerHTML=`
+import{N as d}from"./Navigation-sY52ByX1.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
@@ -80,7 +80,7 @@ import{N as g}from"./Navigation-CVttPfbx.js";class f{constructor(){this.containe
                                     </video>
                                 </div>
                                 <div class="video-info">
-                                    <h2 class="video-title">Been here</h2>
+                                    <h2 class="video-title">Been here, Done that</h2>
                                     <ul class="video-features">
                                         <li>Prove you've actually been to the places you discovered</li>
                                     </ul>
@@ -90,7 +90,7 @@ import{N as g}from"./Navigation-CVttPfbx.js";class f{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(e),this.addStyles(),this.initTypewriter()}initTypewriter(){const i=document.querySelector(".typewriter-text");if(!i)return;let e=0,o="",n=!1,l=0;const t="Copy, Paste...",c=["GO!","Travel!"];i.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=i.querySelector(".line1"),a=i.querySelector(".line2");function r(){const p=c[l],d=t+" "+p;if(n)if(e>t.length+1)e--,o=d.substring(0,e);else{s.textContent=t,a.textContent=" ",s.classList.remove("typing"),a.classList.remove("typing"),setTimeout(()=>{n=!1,l=(l+1)%c.length,e=t.length+1,o=t+" ",r()},300);return}else if(e++,o=d.substring(0,e),e>d.length){setTimeout(()=>{n=!0,e=t.length+1+p.length,r()},3e3);return}if(o.length<=t.length&&!n)s.textContent=o,a.textContent="";else{s.textContent=t;const v=o.substring(t.length+1);a.textContent=v||" "}o.length<=t.length&&!n?(s.classList.add("typing"),a.classList.remove("typing")):(s.classList.remove("typing"),a.classList.add("typing")),setTimeout(r,n?80:120)}setTimeout(r,500)}addStyles(){const i=document.createElement("style");i.textContent=`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){s.textContent=i,o.textContent=r,o.classList.add("typing");return}n.length<=i.length?(s.textContent=n,o.textContent=""):(s.textContent=i,o.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(s.classList.add("typing"),o.classList.remove("typing")):(s.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -394,5 +394,5 @@ import{N as g}from"./Navigation-CVttPfbx.js";class f{constructor(){this.containe
                     font-size: 1.125rem;
                 }
             }
-        `,document.head.appendChild(i)}destroy(){}}export{f as default};
-//# sourceMappingURL=index-BVQHWBYV.js.map
+        `,document.head.appendChild(e)}destroy(){}}export{g as default};
+//# sourceMappingURL=index-CTBdv_TA.js.map
