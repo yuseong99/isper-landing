@@ -1,4 +1,4 @@
-import{N as n}from"./Navigation-sY52ByX1.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new n;this.container.appendChild(i.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as n}from"./Navigation-BNJVF-sh.js";class o{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const i=new n;this.container.appendChild(i.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <!-- Mission Section -->
             <section class="mission-hero">
                 <div class="mission-sphere"></div>
@@ -167,4 +167,4 @@ import{N as n}from"./Navigation-sY52ByX1.js";class o{constructor(){this.containe
                 
             }
         `,document.head.appendChild(i)}destroy(){}}export{o as default};
-//# sourceMappingURL=index-CUC2MSbc.js.map
+//# sourceMappingURL=index-CozW4-zY.js.map

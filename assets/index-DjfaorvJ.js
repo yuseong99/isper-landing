@@ -1,4 +1,4 @@
-import{N as d}from"./Navigation-sY52ByX1.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as d}from"./Navigation-BNJVF-sh.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
@@ -45,7 +45,6 @@ import{N as d}from"./Navigation-sY52ByX1.js";class g{constructor(){this.containe
                                 <div class="video-info">
                                     <h2 class="video-title">Video to Pinpoint</h2>
                                     <ul class="video-features">
-                                        <li>URL processing</li>
                                         <li>Just copy & paste video you like, then Isper pinpoint places in the video</li>
                                     </ul>
                                 </div>
@@ -395,4 +394,4 @@ import{N as d}from"./Navigation-sY52ByX1.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-CTBdv_TA.js.map
+//# sourceMappingURL=index-DjfaorvJ.js.map
