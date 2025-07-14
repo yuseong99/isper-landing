@@ -1,4 +1,4 @@
-import{N as d}from"./Navigation-D57C2keV.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new d;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as c}from"./Navigation-D57C2keV.js";class m{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new c;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
@@ -89,7 +89,9 @@ import{N as d}from"./Navigation-D57C2keV.js";class g{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const i="Copy,  Paste... ",r="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const s=e.querySelector(".line1"),o=e.querySelector(".line2");function l(){const a=i+" "+r;if(t++,n=a.substring(0,t),t>a.length){s.textContent=i,o.textContent=r,o.classList.add("typing");return}n.length<=i.length?(s.textContent=n,o.textContent=""):(s.textContent=i,o.textContent=n.substring(i.length+1)),t<=a.length&&(n.length<=i.length?(s.classList.add("typing"),o.classList.remove("typing")):(s.classList.remove("typing"),o.classList.add("typing"))),setTimeout(l,80)}setTimeout(l,500)}addStyles(){const e=document.createElement("style");e.textContent=`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const s="Copy,  Paste...",a="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const o=e.querySelector(".line1"),i=e.querySelector(".line2");function r(){const l=s+`
+`+a;if(t++,n=l.substring(0,t),t>l.length){o.textContent=s,i.textContent=a,i.classList.add("typing");return}const d=n.indexOf(`
+`);d===-1?(o.textContent=n,i.textContent="",o.classList.add("typing"),i.classList.remove("typing")):(o.textContent=s,i.textContent=n.substring(d+1),o.classList.remove("typing"),i.classList.add("typing")),setTimeout(r,80)}setTimeout(r,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
                 min-height: calc(100vh - 64px);
                 display: flex;
@@ -398,5 +400,5 @@ import{N as d}from"./Navigation-D57C2keV.js";class g{constructor(){this.containe
                     font-size: 1.125rem;
                 }
             }
-        `,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-Dr9Ee-bM.js.map
+        `,document.head.appendChild(e)}destroy(){}}export{m as default};
+//# sourceMappingURL=index-mg6MfmwQ.js.map
