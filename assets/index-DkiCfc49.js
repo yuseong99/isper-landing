@@ -1,4 +1,4 @@
-import{N as h}from"./Navigation-D57C2keV.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const t=new h;this.container.appendChild(t.render());const i=document.createElement("div");i.className="page-container",i.innerHTML=`
+import{N as h}from"./Navigation-DEMnZ-9p.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const t=new h;this.container.appendChild(t.render());const i=document.createElement("div");i.className="page-container",i.innerHTML=`
             <!-- Mission Section -->
             <section class="mission-hero">
                 <div class="mission-sphere"></div>
@@ -204,4 +204,4 @@ import{N as h}from"./Navigation-D57C2keV.js";class g{constructor(){this.containe
                 
             }
         `,document.head.appendChild(t)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-Cmnp1OKt.js.map
+//# sourceMappingURL=index-DkiCfc49.js.map

@@ -1,4 +1,4 @@
-import{N as p}from"./Navigation-D57C2keV.js";class h{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as p}from"./Navigation-DEMnZ-9p.js";class h{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
@@ -400,4 +400,4 @@ import{N as p}from"./Navigation-D57C2keV.js";class h{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{h as default};
-//# sourceMappingURL=index-CMopIQ25.js.map
+//# sourceMappingURL=index-C69_TJzl.js.map

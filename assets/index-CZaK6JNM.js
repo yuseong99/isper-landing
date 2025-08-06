@@ -1,4 +1,4 @@
-import{N as p}from"./Navigation-D57C2keV.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render()),this.loadRecaptchaScript();const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as p}from"./Navigation-DEMnZ-9p.js";class g{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render()),this.loadRecaptchaScript();const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="contact-hero">
                 <div class="container">
                     <h1 class="fade-in">Get in Touch</h1>
@@ -282,4 +282,4 @@ import{N as p}from"./Navigation-D57C2keV.js";class g{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}loadRecaptchaScript(){if(document.querySelector('script[src*="recaptcha/api.js"]'))return;const e=document.createElement("script");e.src="https://www.google.com/recaptcha/api.js",e.async=!0,e.defer=!0,document.head.appendChild(e)}destroy(){}}export{g as default};
-//# sourceMappingURL=index-jdagc-U3.js.map
+//# sourceMappingURL=index-CZaK6JNM.js.map
