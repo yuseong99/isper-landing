@@ -1,12 +1,12 @@
-import{N as p}from"./Navigation-DEMnZ-9p.js";class h{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
+import{N as p}from"./Navigation-WDBA4sfZ.js";class h{constructor(){this.container=document.getElementById("app")}render(){this.container.innerHTML="";const e=new p;this.container.appendChild(e.render());const t=document.createElement("div");t.className="page-container",t.innerHTML=`
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
                         <div class="hero-logo fade-in">
-                            <img src="/assets/group-108.png" alt="ISPER">
+                            <img src="/assets/Group 108.svg" alt="ISPER">
                         </div>
                         <h1 class="hero-title">
-                            <span class="typewriter-text" data-text="Copy, Paste and Go "></span>
+                            <span class="typewriter-text" data-text="Share, Tap and Go "></span>
                         </h1>
                         <p class="hero-subtitle fade-in">
                             Uncover hidden gems straight from your favorite creators.<br>
@@ -89,7 +89,7 @@ import{N as p}from"./Navigation-DEMnZ-9p.js";class h{constructor(){this.containe
                     </div>
                 </div>
             </section>
-        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const s="Copy,  Paste...",a="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const o=e.querySelector(".line1"),i=e.querySelector(".line2");function r(){const l=s+`
+        `,this.container.appendChild(t),this.addStyles(),this.initTypewriter()}initTypewriter(){const e=document.querySelector(".typewriter-text");if(!e)return;let t=0,n="";const s="Share,  Tap...",a="GO!";e.innerHTML='<span class="line1"></span><br><span class="line2"></span>';const o=e.querySelector(".line1"),i=e.querySelector(".line2");function r(){const l=s+`
 `+a;if(t++,n=l.substring(0,t),t>l.length){o.textContent=s,i.textContent=a,i.classList.add("typing");return}const d=n.indexOf(`
 `);if(d===-1)o.textContent=n,i.textContent="",o.classList.add("typing"),i.classList.remove("typing");else{o.textContent=s;const c=n.substring(d+1);i.textContent=c,o.classList.remove("typing"),c.length<a.length?i.classList.add("typing"):i.classList.remove("typing")}setTimeout(r,80)}setTimeout(r,500)}addStyles(){const e=document.createElement("style");e.textContent=`
             .hero-section {
@@ -100,7 +100,35 @@ import{N as p}from"./Navigation-DEMnZ-9p.js";class h{constructor(){this.containe
                 text-align: center;
                 padding: var(--spacing-xl) 0;
                 padding-top: calc(var(--spacing-xl) * 2);
-                background: radial-gradient(ellipse at top, rgba(255, 255, 255, 0.05), transparent 50%);
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .hero-section::before {
+                content: '';
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                right: -10px;
+                bottom: -10px;
+                background: url('/assets/dark-map-bg.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                filter: blur(5px);
+                z-index: -2;
+            }
+            
+            .hero-section::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+                z-index: -1;
             }
             
             .hero-logo {
@@ -400,4 +428,4 @@ import{N as p}from"./Navigation-DEMnZ-9p.js";class h{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{h as default};
-//# sourceMappingURL=index-C69_TJzl.js.map
+//# sourceMappingURL=index-Dd1-_017.js.map
