@@ -1,0 +1,19 @@
+{
+  "name": "isper-landing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:site": "vite --config vite.site.config.js",
+    "build": "vite build",
+    "build:site": "vite build --config vite.site.config.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.169.0"
+  }
+}

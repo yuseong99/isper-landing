@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isper - Project Description</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    html {
+      overflow-y: scroll;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #000;
+      color: #fff;
+      min-height: 100vh;
+    }
+    
+    #canvas-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: all;
+    }
+    
+    .loading {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      z-index: 100;
+      transition: opacity 0.5s ease;
+    }
+    
+    .loading.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+    .instructions {
+      position: fixed;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      z-index: 10;
+      opacity: 0;
+      animation: fadeIn 2s ease 1s forwards;
+    }
+    
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    
+    .instructions p {
+      margin: 0;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.8);
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    @media (max-width: 768px) {
+      .instructions p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading">Loading...</div>
+  <div id="canvas-container"></div>
+  <div class="instructions">
+    <p>Move your cursor to interact • Click to reveal</p>
+  </div>
+  <!-- Add scrollable content -->
+  <div style="height: 300vh; position: relative; z-index: 0; pointer-events: none;">
+    <div style="position: absolute; top: 120vh; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.3); font-size: 14px;">
+      Scroll down to see the map
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
