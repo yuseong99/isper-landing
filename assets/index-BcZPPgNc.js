@@ -158,15 +158,11 @@ import{N as r}from"./Navigation-BtANsm5N.js";class d{constructor(){this.containe
             
             .typewriter-text span.typing::after {
                 content: '|';
-                position: absolute;
-                right: -0.15em;
-                top: 0;
                 color: var(--accent-blue);
                 animation: blink 1s infinite;
                 font-weight: 300;
                 font-size: 1em;
-                height: 1em;
-                line-height: 1;
+                margin-left: 0.05em;
             }
             
             @keyframes blink {
@@ -429,4 +425,4 @@ import{N as r}from"./Navigation-BtANsm5N.js";class d{constructor(){this.containe
                 }
             }
         `,document.head.appendChild(e)}destroy(){}}export{d as default};
-//# sourceMappingURL=index-DwldGOfG.js.map
+//# sourceMappingURL=index-BcZPPgNc.js.map
